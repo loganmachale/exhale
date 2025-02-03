@@ -4,14 +4,14 @@ import tkinter as tk
 
 # configure parameters and constants
 INHALE_DURATION = 5  # set inhale (up animation) duration in seconds
-EXHALE_DURATION = 10  # set exhale (down animation) duration in seconds
-POST_INHALE_HOLD = 0  # set hold time after inhale (up animation) duration in seconds
-POST_EXHALE_HOLD = 0  # set hold time after exhale (down animation) duration in seconds
+EXHALE_DURATION = 8  # set exhale (down animation) duration in seconds
+POST_INHALE_HOLD = 0.5  # set hold time after inhale (up animation) duration in seconds
+POST_EXHALE_HOLD = 0.5  # set hold time after exhale (down animation) duration in seconds
 IS_FULL_SCREEN = False  # toggles full screen mode
 SIDE_WIDTH = 20  # set width (only if IS_FULL_SCREEN is False, recommended values between 10 and 20)
-COLOR = "#000"  # set color, "#F4DFC9" may be congenial for full screen and lower opacity values
-OPACITY = 1  # set transparency (between 0 and 1)
-FRAME_RATE = 30  # set frame rate
+COLOR = "#F4DFC9"  # set color, "#F4DFC9" may be congenial for full screen and lower opacity values
+OPACITY = 0.5  # set transparency (between 0 and 1)
+FRAME_RATE = 160  # set frame rate
 
 root = tk.Tk()
 root.withdraw()
