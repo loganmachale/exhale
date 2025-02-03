@@ -3,13 +3,13 @@ import time
 import tkinter as tk
 
 # configure parameters and constants
-INHALE_DURATION = 5  # set inhale (up animation) duration in seconds
-EXHALE_DURATION = 8  # set exhale (down animation) duration in seconds
-POST_INHALE_HOLD = 0.5  # set hold time after inhale (up animation) duration in seconds
-POST_EXHALE_HOLD = 0.5  # set hold time after exhale (down animation) duration in seconds
+INHALE_DURATION = 1.6  # set inhale (up animation) duration in seconds
+EXHALE_DURATION = 2.3  # set exhale (down animation) duration in seconds
+POST_INHALE_HOLD = 0.25  # set hold time after inhale (up animation) duration in seconds
+POST_EXHALE_HOLD = 0.25  # set hold time after exhale (down animation) duration in seconds
 IS_FULL_SCREEN = False  # toggles full screen mode
-SIDE_WIDTH = 20  # set width (only if IS_FULL_SCREEN is False, recommended values between 10 and 20)
-COLOR = "#F4DFC9"  # set color, "#F4DFC9" may be congenial for full screen and lower opacity values
+SIDE_WIDTH = 40  # set width (only if IS_FULL_SCREEN is False, recommended values between 10 and 20)
+COLOR = "#001c5e"  # set color, "#F4DFC9" may be congenial for full screen and lower opacity values
 OPACITY = 0.5  # set transparency (between 0 and 1)
 FRAME_RATE = 160  # set frame rate
 
